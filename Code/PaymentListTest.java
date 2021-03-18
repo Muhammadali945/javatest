@@ -17,7 +17,7 @@ public class PaymentListTest {
         assertEquals(1,PL.getTotal());
 
     }
-
+    //test to check the isFull() method for the payment list
     @Test
     void testPaymentListFull(){
         PL.add(O1);
@@ -27,7 +27,7 @@ public class PaymentListTest {
         assertEquals(true, PL.isFull());
 
     }
-
+    //test to check that calculatetotal() function return the correct sum
     @Test
     void testPaymentCalculateTotal(){
         Payment P1 = new Payment("january", 20);
