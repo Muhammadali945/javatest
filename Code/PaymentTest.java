@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 
 
 
-public class ObjectListTest {
+public class PaymentTest {
     @Test
     void setUp() throws Exception {
     Payment P = new Payment("january", 20);
